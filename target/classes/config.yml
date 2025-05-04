@@ -1,0 +1,8 @@
+config:
+  no-permission-message: "&cVous n'avez pas la permission &7consolefilter.reload"
+  config-reloaded-message: "&cGenlifeLogFilter &aConfiguration rechargée!"
+  filter:
+    - "moved too quickly!"
+    - "moved wrongly!"
+    - "/login"
+    - "/register"
