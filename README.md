@@ -1,4 +1,4 @@
-# Genlife-LogFilter
+# PaperLight-LogFilter
 
 ## Description
 
