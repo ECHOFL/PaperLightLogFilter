@@ -1,6 +1,10 @@
 config:
+  # Messages à afficher aux utilisateurs
   no-permission-message: "&cVous n'avez pas la permission &7consolefilter.reload"
-  config-reloaded-message: "&cGenlifeLogFilter &aConfiguration rechargée!"
+  config-reloaded-message: "&cPaperLightLogFilter &aConfiguration rechargée!"
+
+  # Liste des chaînes à filtrer dans la sortie de la console
+  # Tout message de log contenant ces chaînes sera masqué
   filter:
     - "moved too quickly!"
     - "moved wrongly!"

@@ -30,7 +30,7 @@ public class GenlifeLogFilter extends JavaPlugin {
         // Ajout du filtre de log
         ((Logger) LogManager.getRootLogger()).addFilter(new LogFilter(getFilter()));
 
-        getLogger().info("Plugin Genlife-LogFilter activé avec succès!");
+        getLogger().info("Plugin PaperLightLogFilter activé avec succès!");
     }
 
     public void loadConfigs() {
@@ -51,6 +51,6 @@ public class GenlifeLogFilter extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("Plugin Genlife-LogFilter désactivé.");
+        getLogger().info("Plugin PaperLightLogFilter désactivé.");
     }
 }

@@ -20,7 +20,7 @@ public class GenlifeReloadConsoleFilterCommand implements TabExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         
         if (!sender.hasPermission("logfilter.reload")) {
-            sender.sendMessage(plugin.getNoPermissionMessage());
+            sender.sendMessage(plugin.getNoPermissionMessage().toLegacyText());
             return true;
         }
 
@@ -29,7 +29,7 @@ public class GenlifeReloadConsoleFilterCommand implements TabExecutor {
         ((org.apache.logging.log4j.core.Logger) org.apache.logging.log4j.LogManager.getRootLogger())
                 .addFilter(new LogFilter(plugin.getFilter())); 
         
-        sender.sendMessage(plugin.getConfigReloadedMessage()); 
+        sender.sendMessage(plugin.getConfigReloadedMessage().toLegacyText()); 
         return true;
     }
 
