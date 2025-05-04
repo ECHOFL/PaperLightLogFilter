@@ -2,7 +2,7 @@
 
 ## Description
 
-Genlife-LogFilter est un plugin Bukkit/Paper léger qui permet aux administrateurs de serveur de filtrer les messages indésirables dans la sortie de la console. Cela peut être particulièrement utile pour réduire le bruit dans la console et se concentrer sur les messages importants. Permet aussi de supprimer les messages /login <mdp> dans la console pour les serveurs offline.
+PaperLight-LogFilter est un plugin Bukkit/Paper léger qui permet aux administrateurs de serveur de filtrer les messages indésirables dans la sortie de la console. Cela peut être particulièrement utile pour réduire le bruit dans la console et se concentrer sur les messages importants. Permet aussi de supprimer les messages /login <mdp> dans la console pour les serveurs offline.
 
 ## Fonctionnalités
 
@@ -19,7 +19,7 @@ Après le premier démarrage, un fichier de configuration par défaut sera cré�
 config:
   # Messages à afficher aux utilisateurs
   no-permission-message: "&cVous n'avez pas la permission &7logfilter.reload"
-  config-reloaded-message: "&cGenlifeLogFilter &aConfiguration rechargée!"
+  config-reloaded-message: "&PaperLightLogFilter &aConfiguration rechargée!"
   
   # Liste des chaînes à filtrer dans la sortie de la console
   # Tout message de log contenant ces chaînes sera masqué
