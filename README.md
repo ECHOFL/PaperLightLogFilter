@@ -1,10 +1,8 @@
 # Genlife-LogFilter
 
-Un plugin Minecraft permettant de filtrer les logs de la console selon des motifs configurables.
-
 ## Description
 
-Genlife-LogFilter est un plugin Bukkit/Paper léger qui permet aux administrateurs de serveur de filtrer les messages indésirables dans la sortie de la console. Cela peut être particulièrement utile pour réduire le bruit dans la console et se concentrer sur les messages importants.
+Genlife-LogFilter est un plugin Bukkit/Paper léger qui permet aux administrateurs de serveur de filtrer les messages indésirables dans la sortie de la console. Cela peut être particulièrement utile pour réduire le bruit dans la console et se concentrer sur les messages importants. Permet aussi de supprimer les messages /login <mdp> dans la console pour les serveurs offline.
 
 ## Fonctionnalités
 
@@ -12,13 +10,6 @@ Genlife-LogFilter est un plugin Bukkit/Paper léger qui permet aux administrateu
 - Rechargement de la configuration sans redémarrer le serveur
 - Accès aux commandes basé sur les permissions
 - Implémentation simple et légère
-
-## Installation
-
-1. Téléchargez la dernière version depuis la [page des releases](https://github.com/fliqq/Genlife-LogFilter/releases)
-2. Placez le fichier JAR dans le dossier `plugins` de votre serveur
-3. Démarrez ou redémarrez votre serveur
-4. Configurez le plugin en modifiant le fichier `config.yml` dans le répertoire `plugins/GenlifeLogFilter`
 
 ## Configuration
 
